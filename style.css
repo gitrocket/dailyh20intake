@@ -83,6 +83,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .cup.full {
@@ -99,4 +100,8 @@ p {
   margin: 20px;
   border-radius: 10px;
   border: 0;
+}
+
+.btn:focus {
+  outline: none;
 }
